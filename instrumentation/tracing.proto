@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "common/common.proto"
+
+package dummy.instrumentation;
+
+message Span {
+    Identifier id = 1;
+}
